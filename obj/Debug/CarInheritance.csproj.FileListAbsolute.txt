@@ -5,3 +5,10 @@ C:\Users\Aditya\source\repos\CarInheritance\CarInheritance\obj\Debug\CarInherita
 C:\Users\Aditya\source\repos\CarInheritance\CarInheritance\obj\Debug\CarInheritance.csproj.CoreCompileInputs.cache
 C:\Users\Aditya\source\repos\CarInheritance\CarInheritance\obj\Debug\CarInheritance.exe
 C:\Users\Aditya\source\repos\CarInheritance\CarInheritance\obj\Debug\CarInheritance.pdb
+D:\practice\C#\Car-Inheritance\bin\Debug\CarInheritance.exe.config
+D:\practice\C#\Car-Inheritance\bin\Debug\CarInheritance.exe
+D:\practice\C#\Car-Inheritance\bin\Debug\CarInheritance.pdb
+D:\practice\C#\Car-Inheritance\obj\Debug\CarInheritance.csprojAssemblyReference.cache
+D:\practice\C#\Car-Inheritance\obj\Debug\CarInheritance.csproj.CoreCompileInputs.cache
+D:\practice\C#\Car-Inheritance\obj\Debug\CarInheritance.exe
+D:\practice\C#\Car-Inheritance\obj\Debug\CarInheritance.pdb
