@@ -15,31 +15,38 @@ namespace CarInheritance
 
             option = Convert.ToInt32(Console.ReadLine());
             mileage = Convert.ToInt32(Console.ReadLine());
-
-            Car obj;
-            
-            switch (option)
+            if (mileage < 5 || mileage > 30)
             {
-                case 0:
-                    Console.Write("A WagonR");
-                    obj = new WagonR(false,"4");
-                    Console.Write(obj.getMileage(mileage));
-                    break;
-                case 1:
-                    Console.Write("A Honda City");
-                    obj = new HondaCity(true,"4");
-                    break;
-                case 2:
-                    Console.Write("A Innova Crysta");
-                    obj = new InnovaCrysta(false,"6");
-                    Console.Write(obj.getMileage(mileage));
-                    break;
-                default:
-                    Console.WriteLine("Wrong Option");
-                    break;
+                Console.WriteLine("Invalid Mileage: " + mileage);
+                Console.ReadKey();
             }
-            //Console.Write(" and has a mileage of around "+mileage+" kmpl");
-            Console.ReadLine();
+            else
+            {
+                Car obj;
+                switch (option)
+                {
+                    case 0:
+                        Console.Write("A WagonR");
+                        obj = new WagonR(false, "4", mileage);
+                        Console.Write(obj.getMileage());
+                        break;
+                    case 1:
+                        Console.Write("A Honda City");
+                        obj = new HondaCity(true, "4", mileage);
+                        Console.Write(obj.getMileage());
+                        break;
+                    case 2:
+                        Console.Write("A Innova Crysta");
+                        obj = new InnovaCrysta(false, "6", mileage);
+                        Console.Write(obj.getMileage());
+                        break;
+                    default:
+                        Console.WriteLine("Wrong Option");
+                        break;
+                }
+                //Console.Write(" and has a mileage of around "+mileage+" kmpl");
+                Console.ReadLine();
+            }
         }
     }
 }
